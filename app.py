@@ -11,6 +11,7 @@ app.config['MYSQL_PASSWORD'] = os.getenv('MYSQL_PASSWORD')
 app.config['MYSQL_DB'] = os.getenv('MYSQL_DB')
 mysql = MySQL(app)
 
+
 # API Endpoints
 
 @app.route('/users', methods=['GET'])
